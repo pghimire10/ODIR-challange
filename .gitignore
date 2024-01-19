@@ -1,0 +1,3 @@
+def read_image(img_path):
+    img = Image.open(img_path).convert("RGB")
+    return img.copy()
